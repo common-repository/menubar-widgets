@@ -1,0 +1,42 @@
+.menu-item-settings code{
+	white-space: pre;
+}
+
+.js .wp-menubar-widgets tbody tr:hover {
+	cursor: move;
+}
+
+.wp-menubar-widgets thead th,
+.wp-menubar-widgets tfoot th {
+	background-color: #fcfcfc;
+}
+
+.wp-menubar-widgets .ui-sortable-helper {
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 3px 5px #DDDDDD;
+	height: auto !important;
+}
+
+.wp-menubar-widgets .ui-sortable-placeholder td,
+.wp-menubar-widgets .ui-sortable-placeholder th {
+	background-color: #FEFAF7 !important;
+}
+
+.wp-menubar-widgets .ui-sortable-placeholder td:first-child {
+	border-left: 4px solid #D54E21;
+}
+
+.rtl .wp-menubar-widgets .ui-sortable-placeholder td:first-child {
+	border-left: none;
+	border-right: 4px solid #D54E21;
+}
+
+.menubar-widget-error-msg-wrap{
+	margin:6px 12px 12px;
+	padding:6px 12px;
+	background:#FCF3EF;
+}
+
+.menu-settings .tablenav{
+	margin-bottom: 7px;
+}
